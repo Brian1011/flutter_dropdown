@@ -10,6 +10,13 @@ class DropdownScreen extends StatefulWidget {
 class _DropdownScreenState extends State<DropdownScreen> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("Dropdown button with objects"),
+      ),
+      body: Container(
+        child: Text("Dropdown"),
+      ),
+    );
   }
 }
