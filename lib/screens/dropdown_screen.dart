@@ -15,8 +15,16 @@ class _DropdownScreenState extends State<DropdownScreen> {
         title: Text("Dropdown button with objects"),
       ),
       body: Container(
-        child: Text("Dropdown"),
-      ),
+          child: Center(
+        child: DropdownButton(),
+      )),
     );
   }
+}
+
+class User {
+  int id;
+  String name;
+
+  User({this.id, this.name});
 }
