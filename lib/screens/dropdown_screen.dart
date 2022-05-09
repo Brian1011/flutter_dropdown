@@ -14,17 +14,14 @@ class _DropdownScreenState extends State<DropdownScreen> {
       appBar: AppBar(
         title: Text("Dropdown button with objects"),
       ),
-      body: Container(
-          child: Center(
-        child: DropdownButton(),
-      )),
+      body: Container(child: Center(child: Text("one"))),
     );
   }
 }
 
 class User {
   int id;
-  String name;
+  String? name;
 
-  User({this.id, this.name});
+  User({required this.id, this.name});
 }
