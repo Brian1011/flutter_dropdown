@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class DropdownScreen extends StatefulWidget {
-  const DropdownScreen({Key key}) : super(key: key);
+  const DropdownScreen({Key? key}) : super(key: key);
 
   @override
   _DropdownScreenState createState() => _DropdownScreenState();
